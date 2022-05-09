@@ -19,6 +19,8 @@ spec:
         image: wlsthq531jpn:latest
         ports:
         - containerPort: 80 
+      imagePullSecrets:
+      - name: regcred
 ---
 apiVersion: v1
 kind: Service 
