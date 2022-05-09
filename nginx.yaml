@@ -16,7 +16,7 @@ spec:
     spec: 
       containers: 
       - name: nginx-ctn 
-        image: nginx
+        image: wlsthq531jpn:latest
         ports:
         - containerPort: 80 
 ---
